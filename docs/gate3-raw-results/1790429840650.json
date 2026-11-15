@@ -1,0 +1,30 @@
+{
+  "orderId": "72d17ac1-52b0-4111-a637-b89ef500a0b9",
+  "numChanges": 6,
+  "pollIntervalMs": 3000,
+  "runAt": "2026-09-26T13:37:20.649Z",
+  "baseline_polling": {
+    "count": 2,
+    "medianMs": 475,
+    "meanMs": 467,
+    "rawLatenciesMs": [
+      459,
+      475
+    ],
+    "totalBytesProxy": 360
+  },
+  "candidate_push": {
+    "count": 6,
+    "medianMs": 3,
+    "meanMs": 4.666666666666667,
+    "rawLatenciesMs": [
+      2,
+      3,
+      3,
+      3,
+      4,
+      13
+    ],
+    "totalBytesProxy": 840
+  }
+}

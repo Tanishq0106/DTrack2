@@ -1,0 +1,9 @@
+{
+  "area": "A",
+  "points": [
+    { "lat": 12.9716, "lon": 77.5946, "timestamp": 1000 },
+    { "lat": 12.9720, "lon": 77.5950, "timestamp": 4000 },
+    { "lat": 12.9725, "lon": 77.5955, "timestamp": 7000 },
+    { "lat": 12.9730, "lon": 77.5960, "timestamp": 10000 }
+  ]
+}

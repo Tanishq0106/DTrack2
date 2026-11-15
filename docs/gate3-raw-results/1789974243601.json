@@ -1,0 +1,30 @@
+{
+  "orderId": "gate3-test-run",
+  "numChanges": 6,
+  "pollIntervalMs": 3000,
+  "runAt": "2026-09-21T07:04:03.600Z",
+  "baseline_polling": {
+    "count": 2,
+    "medianMs": 456,
+    "meanMs": 447,
+    "rawLatenciesMs": [
+      438,
+      456
+    ],
+    "totalBytesProxy": 360
+  },
+  "candidate_push": {
+    "count": 6,
+    "medianMs": 3,
+    "meanMs": 6.333333333333333,
+    "rawLatenciesMs": [
+      3,
+      3,
+      3,
+      3,
+      4,
+      22
+    ],
+    "totalBytesProxy": 840
+  }
+}
