@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client';
 import config from '../config';
 
-const BASE_URL = 'http://localhost:3000'; // match src/services/api.js's BASE_URL in real runs
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://192.168.1.66:3000';
 
 /** Baseline (O2-style): poll GET /orders/:id/status on an interval. */
 export function pollStatus(orderId, token, onUpdate, onError, intervalMs = config.status.pollIntervalMs) {

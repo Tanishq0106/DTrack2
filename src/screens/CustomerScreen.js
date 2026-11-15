@@ -7,7 +7,7 @@ import { getEta } from '../services/etaService';
 import config from '../config';
 
 const MAPBOX_TOKEN = process.env.EXPO_PUBLIC_MAPBOX_ACCESS_TOKEN;
-Mapbox.setAccessToken(MAPBOX_TOKEN || 'YOUR_MAPBOX_TOKEN_HERE');
+Mapbox.setAccessToken(MAPBOX_TOKEN);
 
 // Placeholder destination for ETA calc — in a full app this comes from the
 // order's delivery address; hardcoded here to keep the vertical slice thin.

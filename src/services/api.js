@@ -1,6 +1,6 @@
 import config from '../config';
 
-const BASE_URL = 'http://localhost:3000'; // point at a real host for on-device testing
+const BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'http://192.168.1.66:3000';
 
 // Recovery (Gate 4): failed location pushes retry on a backoff schedule
 // instead of being silently dropped, so a brief network blip doesn't lose
