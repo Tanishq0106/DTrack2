@@ -31,7 +31,10 @@
       ]
     },
     "plugins": [
-      "@rnmapbox/maps",
+      [
+        "@rnmapbox/maps",
+        {}
+      ],
       [
         "expo-location",
         {
